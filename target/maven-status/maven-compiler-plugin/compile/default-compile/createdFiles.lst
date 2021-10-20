@@ -1,0 +1,6 @@
+resources\Base.class
+pageObjects\LandingPage.class
+pageObjects\LoginPage.class
+resources\ExtentReportsNG.class
+Institute\E2EProject\App.class
+pageObjects\ForgotPage.class

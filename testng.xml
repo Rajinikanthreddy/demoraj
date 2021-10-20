@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Institute.E2EProject.Listeners"/>
+</listeners>
+  <test name="ValidateTitleTest">
+    <classes>
+     <class name="Institute.E2EProject.ValidateTitle"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="HomepageTest">
+  <classes>
+  <class name="Institute.E2EProject.HomePage"/>
+  </classes>
+  </test>
+   <test name="AppTest">
+  <classes>
+   <class name="Institute.E2EProject.AppTest"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
